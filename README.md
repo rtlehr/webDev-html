@@ -24,6 +24,9 @@ This is, by no means, the way **IT SHOULD BE DONE** this is how I work, and only
 |
  - **js** - all the JS files in here get combined into a single "application.js" file the site uses
    - **application.js** - the site initial JS class
+   - **tsConversion.js** - All of the converted TypeScript files from the ts folder
+ - **ts** - all the TypeScript files in here get combined into a single "_development/js/tsConversion.js" file the site uses
+   - **helloWorld.ts** - Just a sample TypeScript file
 
 #### _production
 - **assets** - All the items needed to display and run the site are stored in here
