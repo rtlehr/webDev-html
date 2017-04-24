@@ -8,10 +8,10 @@
         "experimentalDecorators": true,
         "removeComments": false,
         "noImplicitAny": false,
-        "outFile": "_development/js/tsConversion.js"
+        "rootDir": "_development/code"
     },
     "include": [
-        "_development/ts/**/*"
+        "_development/code/**/*.ts"
     ],
     "exclude": [
         "node_modules",

@@ -34,12 +34,25 @@
 var Greeter = (function () {
     function Greeter(greeting) {
         this.greeting = greeting;
+        console.log(this.greeting);
     }
     Greeter.prototype.greet = function () {
-        return "<h1>" + this.greeting + "</h1>";
+        console.log(this.greeting);
     };
     return Greeter;
 }());
 ;
-var greeter = new Greeter("Hello, world its me a test!");
-document.body.innerHTML = greeter.greet();
+var greeter = new Greeter("The TypeScript has compiled");
+
+var Greeter = (function () {
+    function Greeter(greeting) {
+        this.greeting = greeting;
+        console.log(this.greeting);
+    }
+    Greeter.prototype.greet = function () {
+        console.log(this.greeting);
+    };
+    return Greeter;
+}());
+;
+var greeter = new Greeter("The TypeScript has compiled inside");

@@ -29,13 +29,8 @@ module.exports = function(grunt) {
                 options: {}
             },
             applicationJsConcat: {
-                files: ['_development/js/**/*', '_production/assets/js/application.ts.js'],
+                files: ['_development/code/**/*.js'],
                 tasks: ['concat:application'],
-                options: {}
-            },
-            applicationTypeScript: {
-                files: ['_development/ts/**/*'],
-                tasks: ['typescript:base'],
                 options: {}
             },
             applicationUglify: {
@@ -103,13 +98,13 @@ module.exports = function(grunt) {
             },
             //Copy (change) this information to match the name of the ALLAX file you are creating
             application: {
-                src: ['_development/js/**/*', '_production/assets/js/application.ts.js'],
+                src: ['_development/code/**/*.js'],
                 dest: '_production/assets/js/application.js',
                 nonull: true,
             }
         },
         jsbeautifier: {
-            files: ["_development/js/**/*.js", "GruntFile.js", "_production/*.html"],
+            files: ["_development/code/**/*.js", "GruntFile.js", "_production/*.html"],
             options: {
                 js: {
                     indentWithTabs: true
