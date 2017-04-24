@@ -22,11 +22,9 @@ This is, by no means, the way **IT SHOULD BE DONE** this is how I work, and only
      - **tablet.less** - CSS for the tablet queries
    - **application.less** - the LESS that uses the files in the module-mediaQueries to create the site CSS (this uses a mobile first philosophy)
 |
- - **js** - all the JS files in here get combined into a single "application.js" file the site uses
+ - **js** - all the JS, TS files in here get combined into a single "application.js" file the site uses
    - **application.js** - the site initial JS class
-   - **tsConversion.js** - All of the converted TypeScript files from the ts folder
- - **ts** - all the TypeScript files in here get combined into a single "_development/js/tsConversion.js" file the site uses
-   - **helloWorld.ts** - Just a sample TypeScript file
+   - **helloWorld.ts** - Test TS file
 
 #### _production
 - **assets** - All the items needed to display and run the site are stored in here
