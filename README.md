@@ -22,7 +22,7 @@ This is, by no means, the way **IT SHOULD BE DONE** this is how I work, and only
      - **tablet.less** - CSS for the tablet queries
    - **application.less** - the LESS that uses the files in the module-mediaQueries to create the site CSS (this uses a mobile first philosophy)
 |
- - **js** - all the JS, TS files in here get combined into a single "application.js" file the site uses
+ - **js** - all the Javascript, TypeScript (after compiled into a JS) files in here get combined into a single "application.js" file the site uses
    - **application.js** - the site initial JS class
    - **helloWorld.ts** - Test TS file
 
