@@ -1,5 +1,3 @@
-test
-
 # How to use webDev-html
 
 ### Environment philosophy
